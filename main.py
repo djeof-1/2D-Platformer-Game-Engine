@@ -75,9 +75,7 @@ while gameLoop:
     player.render(mainWindow)
     if (player.y >= 600):
         gameLoop = False
-        print "You looser!!! B|"
-
-
+        print "You loser!"
 
     fps.tick(60)
     pygame.display.flip()
